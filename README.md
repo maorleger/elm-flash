@@ -33,7 +33,7 @@ update =
 -- Use it in your view
 view =
   ...
-  ++ case <| Flash.getMessage model.flash of
+  ++ case (Flash.getMessage model.flash) of
         Nothing ->
           []
 
