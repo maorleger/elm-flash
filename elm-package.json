@@ -1,5 +1,5 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "summary": "A library to manage flash message state",
     "repository": "https://github.com/maorleger/elm-flash.git",
     "license": "MIT",
