@@ -51,6 +51,7 @@ getMessage (State message) =
 
 
 {-| Initializing the timer with a flash message
+  Example: Flash.setFlash RemoveFlash 2000 "My flash message for 2 seconds"
 -}
 setFlash : msg -> Time -> String -> ( State, Cmd msg )
 setFlash msg timeout flashMessage =
